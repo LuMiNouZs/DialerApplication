@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFA56C">
+
+        <ImageView
+            android:id="@+id/imHistoryPhoto"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/face" 
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1.27" >
+
+                <TextView
+                    android:id="@+id/txtHistoryNumber"
+                    android:layout_width="186dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.02"
+                    android:gravity="center|left"
+                    android:text="TextView"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:typeface="serif"
+                    android:textColor="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imHistoryCalling"
+                    android:layout_width="33dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:src="@android:drawable/sym_call_outgoing" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/txtHistoryDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:typeface="serif"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/txtHistoryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:gravity="right"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:typeface="serif"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
